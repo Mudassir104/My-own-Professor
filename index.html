@@ -41,6 +41,7 @@
         This is Professor MD Assistant. This will speak and listen to your
         voice.
       </h1>
+      <h3 class="text-start">Your Question:</h3>
       <textarea
         name=""
         id="speach-Text"
@@ -48,11 +49,17 @@
         cols="30"
         rows="4"
       ></textarea>
+      <h3 class="text-start">My Answer</h3>
+      <p id="answer" class="w-100 border text-start" style="height: 70px"></p>
+
       <button class="btn btn-primary my-3" id="speechRecognizationStart">
         Speech Recognition Start
       </button>
       <button class="btn btn-primary my-3" id="speechRecognizationEnd">
         Speech Recognition End
+      </button>
+      <button class="btn btn-primary my-3" id="speechRecognizationRead">
+        Read Text
       </button>
     </div>
   </body>
